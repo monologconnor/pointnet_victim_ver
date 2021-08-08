@@ -1,0 +1,47 @@
+Namespace(batch_size=4, dump_dir='dump', gpu=0, model='pointnet_cls', model_path='log/model.ckpt', num_point=1024, visu=False)
+Model restored.
+----0----
+----1----
+eval mean loss: 0.494564
+eval accuracy: 0.878849
+eval avg class acc: 0.851035
+  airplane:	1.000
+   bathtub:	0.840
+       bed:	0.970
+     bench:	0.750
+ bookshelf:	0.920
+    bottle:	0.960
+      bowl:	0.950
+       car:	0.980
+     chair:	0.970
+      cone:	0.950
+       cup:	0.450
+   curtain:	0.850
+      desk:	0.767
+      door:	0.900
+   dresser:	0.663
+flower_pot:	0.250
+ glass_box:	0.930
+    guitar:	1.000
+  keyboard:	1.000
+      lamp:	0.900
+    laptop:	1.000
+    mantel:	0.950
+   monitor:	0.940
+night_stand:	0.651
+    person:	0.950
+     piano:	0.870
+     plant:	0.740
+     radio:	0.850
+range_hood:	0.920
+      sink:	0.750
+      sofa:	0.960
+    stairs:	0.850
+     stool:	0.850
+     table:	0.860
+      tent:	0.950
+    toilet:	0.970
+  tv_stand:	0.820
+      vase:	0.810
+  wardrobe:	0.700
+      xbox:	0.650
